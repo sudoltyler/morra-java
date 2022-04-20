@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="root2" styleClass="borderpane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="RunController">
+   <center>
+      <ListView fx:id="listItems">
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets></ListView>
+   </center>
+   <top>
+      <Label alignment="CENTER" text="${portNum}" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="10.0" top="10.0" />
+         </opaqueInsets></Label>
+   </top>
+   <opaqueInsets>
+      <Insets bottom="10.0" top="10.0" />
+   </opaqueInsets>
+</BorderPane>
