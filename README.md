@@ -14,8 +14,8 @@ server using an IP address and a port number. Once a client is connected, they
 must click ready. Once two clients are connected and ready, the game will start.
 Each player chooses a number of fingers to play, and guesses the number the other
 player has played.
-<img src="/ProjectImages/server1.png" alt="Alt text" title="Optional title">
-
+<img src="/ProjectImages/client1.png" alt="Alt text" title="Optional title">
+<img src="/ProjectImages/client2.png" alt="Alt text" title="Optional title">
 
 ## *Server Program*
 
@@ -23,3 +23,5 @@ The server program is located in MorraServer. The server program allows the user
 to choose a port to start the server on. The server allows for 2 clients to
 connect, and facilitates the game. Clients send a game state object that the
 server then uses and returns.
+<img src="/ProjectImages/server1.png" alt="Alt text" title="Optional title">
+<img src="/ProjectImages/server2.png" alt="Alt text" title="Optional title">
