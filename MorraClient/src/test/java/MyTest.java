@@ -12,6 +12,7 @@ class MyTest {
 	@Test
 	void test() {
 //		TODO: implement tests
+		// test
 	}
 
 }
