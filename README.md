@@ -3,7 +3,7 @@
 This program is a game called morra, a hand game that dates back to ancient 
 times. This version of morra is played on a client, with different buttons for 
 your game options. The game is played between 2 clients using TCP for connection
-and the game state communication. The project is done in Java, with fxml and
+and the game state communication. The project is done in Java, with FXML and
 CSS elements for styling. The project is built and run with maven for both server
 and client programs. Also included is a UML pdf with a project outline.
 
