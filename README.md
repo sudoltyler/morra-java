@@ -14,6 +14,7 @@ server using an IP address and a port number. Once a client is connected, they
 must click ready. Once two clients are connected and ready, the game will start.
 Each player chooses a number of fingers to play, and guesses the number the other
 player has played.
+<img src="/ProjectImages/server1.png" alt="Alt text" title="Optional title">
 
 
 ## *Server Program*
