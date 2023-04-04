@@ -7,8 +7,6 @@ and the game state communication. The project is done in Java, with fxml and
 CSS elements for styling. The project is built and run with maven for both server
 and client programs. Also included is a UML pdf with a project outline.
 
----
-
 ## *Client Program*
 
 The client program is located in MorraClient. The client program connects to a
