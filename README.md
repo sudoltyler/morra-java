@@ -15,6 +15,7 @@ must click ready. Once two clients are connected and ready, the game will start.
 Each player chooses a number of fingers to play, and guesses the number the other
 player has played.
 
+
 ## *Server Program*
 
 The server program is located in MorraServer. The server program allows the user
