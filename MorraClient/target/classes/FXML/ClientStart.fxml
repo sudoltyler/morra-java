@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="root" styleClass="borderpane" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StartController">
+
+    <center><VBox fx:id="vbox1" alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1">
+         <HBox fx:id="portHBox1" alignment="CENTER" layoutX="10.0" layoutY="10.0" spacing="5.0">
+            <children>
+               <Label fx:id="ipLabel" text="Enter IP:" />
+               <TextField fx:id="enterIP" text="127.0.0.1" />
+            </children>
+         </HBox>
+        <HBox fx:id="portHBox" alignment="CENTER" spacing="5.0" xmlns:fx="http://javafx.com/fxml/1">
+            <Label fx:id="portLabel" text="Enter port:" />
+            <TextField fx:id="enterPort" text="5555" />
+        </HBox>
+        <Button fx:id="connectClient" onAction="#connectClientButton" text="Connect to Server" />
+        <BorderPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+        </BorderPane.margin>
+    </VBox></center>
+
+</BorderPane>
